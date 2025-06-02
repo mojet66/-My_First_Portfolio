@@ -1,0 +1,43 @@
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+  flex: auto;
+}
+main,
+article {
+  flex: 2;
+  overflow-y: auto;
+}
+main,
+aside {
+  flex: 1;
+  overflow-y: auto;
+}
+
+img {
+  height: 50px;
+  width: 50px;
+}
+
+.logo {
+  margin-top: 15px;
+  margin-left: 10px;
+}
+
+article {
+  /* justify-items: center; */
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  border: 5px solid #c71616;
+}
+thead {
+  background-color: cyan;
+}
